@@ -1,0 +1,68 @@
+{
+  "Version": "1.0",
+  "ModID": "dare2love_mod4mods",
+  "IncompatibleIds": null,
+  "ModDependencies": [],
+  "LoadAfterIds": [ 
+  	"*"
+  ],
+  "Category": {
+    "Chinese": "Misc",
+    "English": "Misc",
+    "French": "Misc",
+    "German": "Misc",
+    "Italian": "Misc",
+    "Japanese": "Misc",
+    "Korean": "Misc",
+    "Polish": "Misc",
+    "Russian": "Misc",
+    "Spanish": "Misc",
+    "Taiwanese": "Misc"
+  },
+  "ModName": {
+    "Chinese": "Mod4Mods",
+    "English": "Mod4Mods",
+    "French": "Mod4Mods",
+    "German": "Mod4Mods",
+    "Italian": "Mod4Mods",
+    "Japanese": "Mod4Mods",
+    "Korean": "Mod4Mods",
+    "Polish": "Mod4Mods",
+    "Russian": "Mod4Mods",
+    "Spanish": "Mod4Mods",
+    "Taiwanese": "Mod4Mods"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Mod4Mods. \n\n",
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [],
+  "CreatorName": "Dare2Love",
+  "CreatorContact": null,
+  "Image": null
+}

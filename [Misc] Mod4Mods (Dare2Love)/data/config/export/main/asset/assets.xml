@@ -1,0 +1,106 @@
+<ModOps>
+	
+	<!-- 
+		GUIDs for personal use	2001002000 to 2001002010 
+	-->
+	
+	<ModOp Type="addNextSibling" GUID='190872'>
+	  <Asset>
+      <Template>ItemEffectTargetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2001002000</GUID>
+          <Name>All animal farms not electrifiable</Name>
+        </Standard>
+        <Text />
+        <ItemEffectTargetPool>
+			    <EffectTargetGUIDs>
+			      <Item>
+			        <GUID>1010263</GUID>	<!-- Moderate: Cattle -->
+			      </Item>
+			      <Item>
+			        <GUID>1010267</GUID>	<!-- Moderate: Sheep -->
+			      </Item>
+			      <Item>
+			        <GUID>1010269</GUID>	<!-- Moderate: Pic -->
+			      </Item>
+			      <Item>
+			        <GUID>114456</GUID>		<!-- Africa: Goat -->
+			      </Item>
+			      <Item>
+			        <GUID>114439</GUID>		<!-- Africa: Sanga -->
+			      </Item>
+			      <Item>
+			      	<GUID>112676</GUID>		<!-- Arctic: Goose -->
+			      </Item>
+			      <Item>
+			      	<GUID>112682</GUID>		<!-- Arctic: Husky -->
+			      </Item>
+			    </EffectTargetGUIDs>
+			  </ItemEffectTargetPool>
+      </Values>
+	  </Asset>
+	</ModOp>
+	
+	<ModOp Type="addNextSibling" GUID='190872'>
+	  <Asset>
+      <Template>ItemEffectTargetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>2001002001</GUID>
+          <Name>Hunting cabins</Name>
+        </Standard>
+        <Text />
+        <ItemEffectTargetPool>
+			    <EffectTargetGUIDs>
+			      <Item>
+		  				<GUID>1010558</GUID>	<!-- Moderate: Hunting Cabin -->
+		  			</Item>
+		  			<Item>
+		  				<GUID>112667</GUID>		<!-- Arctic: Caribou -->
+		  			</Item>
+		  			<Item>
+		  				<GUID>112673</GUID>		<!-- Arctic: Bear -->
+		  			</Item>
+		  			<Item>
+            	<GUID>116034</GUID>		<!-- Arctic: Prime -->
+            </Item>
+			    </EffectTargetGUIDs>
+			  </ItemEffectTargetPool>
+      </Values>
+	  </Asset>
+	</ModOp>
+	
+	<ModOp Type="add" GUID="190778" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<Item>
+    	<GUID>114703</GUID> 					<!-- Arctic: Lumberjack -->
+    </Item>
+  </ModOp>
+		
+	<ModOp Type="replace" GUID='1998000002' Path="/Values/ItemEffect/EffectTargets">
+		<EffectTargets>
+			<Item>
+        <GUID>190865</GUID> 				<!-- Crop farms -->
+      </Item>
+		  <Item>
+		    <GUID>194008</GUID>    			<!-- Orchards -->
+		  </Item>
+		  <Item>
+		  	<GUID>190778</GUID>    			<!-- Lumberjack -->
+		  </Item>
+		  <Item>
+		  	<GUID>8924</GUID>    				<!-- Charcoal Kilns -->
+		  </Item>
+		  <Item>
+		  	<GUID>1418</GUID>    				<!-- Industrial Oil Press -->
+		  </Item>
+		  <Item>
+		  	<GUID>2001002000</GUID>   	<!-- Animal Farms -->
+		  </Item>
+		  <Item>
+		  	<GUID>2001002001</GUID>   	<!-- Hunting Cabins -->
+		  </Item>
+		</EffectTargets>
+	</ModOp>
+	
+</ModOps>
